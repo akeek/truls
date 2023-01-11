@@ -589,14 +589,21 @@ p {
 
 .burger-1-img {
     height: 250px;
+    width: auto;
+    object-fit: contain;
 }
 
-.section-11 {
+.section-2 {
+    background: none;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     padding: 2rem 4rem;
     width: 100%;
+    margin: auto;
+}
+
+.background-1 {
+    background: none;
 }
 
 .burger-1 h3 {
@@ -604,10 +611,6 @@ p {
     text-transform: uppercase;
     text-align: center;
     margin: auto;
-}
-
-.burger-1-img {
-    height: 250px;
 }
 
 .burger-2 h3 {
